@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | PureGlow Organics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header-container">
+      <h1 class="logo">PureGlow Organics</h1>
+
+      <nav class="bottom-nav">
+        <a href="contact.html">Contact Us</a>
+        <a href="cart.html">Cart 🛒</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About Us</a>
+      </nav>
+  </header>
+
+  <div class="contact-container">
+      <h2>Contact Us 💬</h2>
+      <p class="contact-sub">We’re happy to help! Send us a message below.</p>
+
+      <form id="contactForm" class="contact-form">
+          <label>Name</label>
+          <input type="text" id="contactName" placeholder="Enter your name" required>
+
+          <label>Email</label>
+          <input type="email" id="contactEmail" placeholder="Enter your email" required>
+
+          <label>Message</label>
+          <textarea id="contactMessage" placeholder="Type your message" required></textarea>
+
+          <button type="submit" class="contact-btn">Send Message</button>
+      </form>
+
+      <p id="contactSuccess" class="success-msg" style="display:none;">
+          ✅ Your message has been sent successfully!
+      </p>
+  </div>
+
+  <footer>
+      <p>&copy; 2025 PureGlow Organics | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

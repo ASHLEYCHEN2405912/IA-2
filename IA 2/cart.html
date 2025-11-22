@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart | PureGlow Organics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="page-container">
+
+    <!-- HEADER -->
+    <header class="header-container">
+      <div class="top-header">
+        <h1 class="logo">PureGlow Organics</h1>
+      </div>
+      <nav class="bottom-nav">
+        <a href="contact.html">Contact Us</a>
+        <a href="cart.html">Cart 🛒</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About Us</a>
+      </nav>
+    </header>
+
+    <!-- CART -->
+    <main class="cart-container">
+      <h2>Your Shopping Cart 🛒</h2>
+
+      <table class="cart-table">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+
+        <tbody id="cart-items">
+        </tbody>
+      </table>
+
+      <!-- SUMMARY -->
+      <div class="cart-summary">
+        <p><strong>Total: $<span id="cart-total">0.00</span></strong></p>
+
+        <button id="clear-cart">Clear Cart</button>
+
+        <!-- CHECKOUT BUTTON -->
+        <button id="checkoutBtn">Checkout</button>
+      </div>
+    </main>
+
+<nav class="bottom-nav">
+    <a href="index.html" id="loginLink">Login</a>
+    <a href="#" id="logoutLink" style="display:none;">Logout</a>
+</nav>
+
+    <footer>
+      <p>&copy; 2025 PureGlow Organics | All Rights Reserved</p>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
